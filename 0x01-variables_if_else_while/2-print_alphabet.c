@@ -1,5 +1,5 @@
 /**
-* File:2-print_alphabet.c
+* File: print_alphabet.c
 *
 * Auth:Brennan D Baraban
 *
