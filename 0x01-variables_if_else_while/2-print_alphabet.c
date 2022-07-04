@@ -3,17 +3,16 @@
 */
 #include <stdio.h>
 /**
-* main - Main function goes here
+* main: Main function goes here
 *
 * Return: Always 0 (success)
 */
-int main(void)
+int main(char)
 {
 	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar(letter);
 	putchar('\n');
-	
 	return (0);
 }
