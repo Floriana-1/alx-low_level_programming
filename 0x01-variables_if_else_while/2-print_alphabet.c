@@ -1,15 +1,13 @@
 /**
-* File: 2-print_alphabet.c
+* File:2-print_alphabet.c
 *
-* Auth: Brennan D Baraban
+* Auth:Brennan D Baraban
 *
 */
-
-#include <stdio.h>
-
+#include<stdio.h>
 /**
 *
-* main-prints the alphabet in lowercase.
+* main - prints the alphabet in lowercase.
 * 
 * Return: Always 0.
 */
