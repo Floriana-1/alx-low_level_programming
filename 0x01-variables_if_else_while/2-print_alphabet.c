@@ -1,15 +1,11 @@
 /**
-* File:2-print_alphabet.c
-*
-* Auth:Brennan D Baraban
-*
+*2-print_alphabet.c
 */
 #include <stdio.h>
 /**
+* main - Main function goes here
 *
-* main - prints the alphabet in lowercase.
-* 
-* Return: Always 0.
+* Return: Always 0 (success)
 */
 int main(void)
 {
