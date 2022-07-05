@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - Entry point
-* Return: Always 0 (Success)
+*main-Entry point
+*Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -10,7 +10,7 @@ int main(void)
 
 	while (*sh)
 	{
-		_putchar(*sh);
+		putchar(*sh);
 		sh++;
 	}
 	putchar('\n');
