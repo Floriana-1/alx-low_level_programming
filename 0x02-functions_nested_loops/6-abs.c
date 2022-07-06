@@ -3,7 +3,7 @@
 /**
 * _abs -> return absolute value of an integer
 * @n: parameter
-* Return: absolute value of a computer 
+* Return: absolute value of a computer
 */
 int _abs(int n)
 {
