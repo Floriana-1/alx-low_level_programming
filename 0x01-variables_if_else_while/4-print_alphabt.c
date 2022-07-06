@@ -6,12 +6,12 @@
 */
 int main(void)
 {
-char a;
-for (a = 'b'; a <= 'z'; a++)
-if (a == 'q' || a == 'e')
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-continue;
+if (letter != 'e' && letter != 'q')
+putchar(letter);
 }
-putchar(a);
+putchar('\n');
 return (0);
 }
