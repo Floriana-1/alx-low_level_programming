@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* print_diagonal -  checks for checks for a digit (0 through 9).
-* @n: n -  Variable
-* Return: Always 0.
+* print_diagonal -checks to print diagonal
+* @n: n - variable
+* Return: Always return 0.
 */
 
 void print_diagonal(int n)
@@ -14,18 +14,17 @@ void print_diagonal(int n)
 	{
 		for (x = 1; x <= n; x++)
 		{
-			for (y = 1; y <= n; y++)
+			if (x == y)
 			{
-				if (x == y)
-				{
-					_putchar(92);
-					break;
-				}
-				_putchar(' ');
+				_putchar(92);
+				break;
 			}
-			_putchar('\n');
+			_putchar(' ');
 		}
-		else
-		{_putchar('\n');
+		_putchar('\n');
+	}
+	else
+	{
+		_putchar('\n');
 	}
 }
