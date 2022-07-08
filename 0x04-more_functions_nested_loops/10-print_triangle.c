@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* print_trangle - print triangle with size var
-* @var: size of triangle to print
+* print_triangle - print triangle with hash
+* @size: size of triangle to print
 */
 
 void print_triangle(int size)
