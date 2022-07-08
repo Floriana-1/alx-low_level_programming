@@ -2,7 +2,7 @@
 
 /**
 * main - Entry point
-* Return: Always return 0
+* Return: 0
 */
 
 int main(void)
@@ -20,7 +20,7 @@ int main(void)
 		else
 			printf("%d", x);
 
-		if (i == 100)
+		if (x == 100)
 			continue;
 
 		printf(" ");
