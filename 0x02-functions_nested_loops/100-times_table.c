@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_times_table - printing the multiplication table 
+* print_times_table - printing the multiplication table
 * @n: number to the multiplied
 */
 
@@ -24,7 +24,7 @@ void print_times_table(int n)
 
 				if (k >= 100 && k <= 999)
 				{
-					_putchar((k/100) + '0')
+					_putchar((k / 100) + '0');
 					_putchar(((k / 10) % 10) + '0');
 				}
 				else if (k >= 10 && k <= 99)
